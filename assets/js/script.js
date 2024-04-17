@@ -152,10 +152,10 @@ function  displayMultiplyQuestion(operand1, operand2) {
 
 }
 
-function  displayDivisionQuestion() {
+function  displayDivisionQuestion(operand1, operand2) {
 
-    document.getElementById("operand1").textContent = operand1 % operand2 == 0 ? operand1 : operand2;
-    document.getElementById("operand2").textContent = operand1 % operand2 == 0 ? operand2 : operand1;
+    document.getElementById("operand1").textContent = operand1 * operand2;
+    document.getElementById("operand2").textContent = operand1;
     document.getElementById("operator").textContent = "/";
 
 }
